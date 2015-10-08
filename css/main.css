@@ -8,25 +8,26 @@
 .topBarInner {
   width: 100%;
   height: 80px;
-  padding: 0, 18px; }
+  padding: 0, 18px, 0 18px; }
 
 .navBar {
   width: 100%;
   height: 43px; }
 
 #navBarInner {
-  padding: 0, 18px;
+  padding: 0, 18px, 0, 18px;
   height: 40px;
   width: 100%; }
 
 #mainContentContainer {
   width: 100%;
-  height: 4159px; }
+  height: 4159px;
+  background-color: #F5F5F1; }
 
 .mainContentAdjustable {
   max-width: 980px;
   height: 4159px;
-  margin: 0, auto; }
+  margin: 0, auto, 0, auto; }
 
 .mainContent {
   max-width: 980px;
@@ -43,37 +44,81 @@ h5 {
 
 #allCategories {
   width: 245px;
-  height: 408px; }
+  height: 408px;
+  background-color: #FFFFFF; }
+
+.categories {
+  font-size: 13px;
+  list-style-type: none;
+  cursor: pointer;
+  margin: 0;
+  font-family: Arial;
+  font-style: sans-serif;
+  color: #0192B5;
+  line-height: 1.4;
+  background-color: #FFFFFF; }
 
 .itemTypeSearchBox {
   width: 245px;
-  height: 650px; }
+  height: 650px;
+  background-color: #FFFFFF; }
 
 #itemTypeSearchInnerBox {
   width: 219px;
   height: 624px; }
+
+.itemType {
+  width: 219px;
+  height: 18px;
+  margin-bottom: 6px;
+  font-size: 13px;
+  text-color: #555;
+  font-family: Arial;
+  font-style: sans-serif; }
+
+.itemRadioBox {
+  width: 219px;
+  height: 72px;
+  font-family: Arial;
+  font-style: sans-serif;
+  text-color: #555;
+  font-size: 13px; }
 
 .mainContentInnerBox {
   width: 75%;
   height: 4159px;
   padding-left: 18px;
   margin: 0;
-  display: block; }
+  display: block;
+  background-color: #FFFFFF; }
 
 .mainContentBoxNavBar {
   clear: both;
   margin: 0;
   width: 717px;
   height: 27px;
-  padding-bottom: 9px; }
+  padding-bottom: 9px;
+  background-color: #FFFFFF; }
 
 .allCategories {
   float: left;
   width: 245.5px;
-  height: 18px; }
+  height: 18px;
+  background-color: #FFFFFF; }
 
 .sortBy {
-  float: right; }
+  float: right;
+  background-color: #FFFFFF; }
+
+.mainContentItems {
+  width: 717px;
+  height: 3902px;
+  clear: both;
+  display: block;
+  margin: 0; }
+
+.itemList {
+  list-style-type: none; }
 
 .eachItem {
   width: 33.33%;
@@ -85,7 +130,8 @@ h5 {
   text-color: #555;
   font-size: 13px;
   font-family: Arial;
-  font-style: sans-serif; }
+  font-style: sans-serif;
+  background-color: #FFFFFF; }
 
 .insideEachItem {
   width: 225px;
@@ -94,7 +140,8 @@ h5 {
   background-color: #FFF;
   border-bottom-color: #CBCCC9;
   display: inline-block;
-  position: relative; }
+  position: relative;
+  background-color: #FFFFFF; }
 
 .imageContainer {
   width: 225px;
@@ -106,8 +153,20 @@ h5 {
 .infoUnderImage {
   width: 225px;
   height: 36px;
-  margin: 624px;
+  margin: 6px;
   font-family: Arial;
   font-style: sans-serif;
   text-color: #555;
-  display: block; }
+  display: block;
+  background-color: #FFFFFF; }
+
+.related {
+  font-size: 13px;
+  list-style-type: none;
+  cursor: pointer;
+  margin: 0;
+  font-family: Arial;
+  font-style: sans-serif;
+  color: #0192B5;
+  line-height: 1.4;
+  background-color: #FFFFFF; }
