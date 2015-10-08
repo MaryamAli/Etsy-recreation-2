@@ -1,11 +1,113 @@
+* {
+  border: 1px solid black; }
+
 .topBar {
+  height: 80px;
+  border-bottom: 1px; }
+
+.topBarInner {
   width: 100%;
-  height: 81px;
-  border: 1px solid black;
-  padding: 0;
-  color: orange; }
+  height: 80px;
+  padding: 0, 18px; }
 
 .navBar {
-  width: max-width;
-  height: 43px;
-  border: 1px solid blue; }
+  width: 100%;
+  height: 43px; }
+
+#navBarInner {
+  padding: 0, 18px;
+  height: 40px;
+  width: 100%; }
+
+#mainContentContainer {
+  width: 100%;
+  height: 4159px; }
+
+.mainContentAdjustable {
+  max-width: 980px;
+  height: 4159px;
+  margin: 0, auto; }
+
+.mainContent {
+  max-width: 980px;
+  height: 415px;
+  margin-top: 30px; }
+
+.leftBox {
+  width: 245px;
+  height: 1148px; }
+
+h5 {
+  width: 245px;
+  height: 27px; }
+
+#allCategories {
+  width: 245px;
+  height: 408px; }
+
+.itemTypeSearchBox {
+  width: 245px;
+  height: 650px; }
+
+#itemTypeSearchInnerBox {
+  width: 219px;
+  height: 624px; }
+
+.mainContentInnerBox {
+  width: 75%;
+  height: 4159px;
+  padding-left: 18px;
+  margin: 0;
+  display: block; }
+
+.mainContentBoxNavBar {
+  clear: both;
+  margin: 0;
+  width: 717px;
+  height: 27px;
+  padding-bottom: 9px; }
+
+.allCategories {
+  float: left;
+  width: 245.5px;
+  height: 18px; }
+
+.sortBy {
+  float: right; }
+
+.eachItem {
+  width: 33.33%;
+  height: 227px;
+  padding: 9px;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  text-color: #555;
+  font-size: 13px;
+  font-family: Arial;
+  font-style: sans-serif; }
+
+.insideEachItem {
+  width: 225px;
+  height: 225px;
+  border: 1px solid #E1E3DF;
+  background-color: #FFF;
+  border-bottom-color: #CBCCC9;
+  display: inline-block;
+  position: relative; }
+
+.imageContainer {
+  width: 225px;
+  height: 179px;
+  position: relative;
+  display: block;
+  overflow: hidden; }
+
+.infoUnderImage {
+  width: 225px;
+  height: 36px;
+  margin: 624px;
+  font-family: Arial;
+  font-style: sans-serif;
+  text-color: #555;
+  display: block; }

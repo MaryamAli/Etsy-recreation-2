@@ -1,15 +1,188 @@
-.topBar{
-  width: 100%;
-  height: 81px;
+* {
   border: 1px solid black;
-  padding:0;
-  color: orange;
-
 }
 
-.navBar{
-  width: max-width;
+.topBar {
+  height: 80px;
+  border-bottom: 1px;
+}
+
+.topBarInner {
+  width: 100%;
+  height: 80px;
+  padding: 0, 18px;
+}
+
+.navBar {
+  width: 100%;
   height: 43px;
-  border: 1px solid blue;
+}
+
+#navBarInner {
+  padding: 0, 18px;
+    height: 40px;
+  width: 100%;
+}
+
+#mainContentContainer {
+  width: 100%;
+  height: 4159px;
+}
+
+.mainContentAdjustable {
+  max-width: 980px;
+  height: 4159px;
+  margin: 0, auto;
+}
+
+.mainContent {
+  max-width: 980px;
+  height: 415px;
+  margin-top: 30px;
+}
+
+.leftBox {
+  width: 245px;
+  height: 1148px;
+}
+
+h5 {
+  width: 245px;
+  height: 27px;
+}
+
+#allCategories {
+  width: 245px;
+  height: 408px;
 
 }
+
+.allCategoriesInner {
+
+}
+
+.itemTypeSearchBox {
+  width: 245px;
+  height: 650px;
+}
+
+#itemTypeSearchInnerBox {
+  width: 219px;
+  height: 624px;
+}
+
+.mainContentInnerBox {
+  //contains pg number box at bottom
+  width: 75%;
+  // or width: 717px;
+  height: 4159px;
+  padding-left: 18px;
+  margin: 0;
+  display: block;
+
+}
+
+.mainContentBoxNavBar {
+  clear: both;
+  margin: 0;
+  width: 717px;
+  height: 27px;
+  padding-bottom: 9px;
+}
+
+.allCategories {
+  float: left;
+  width: 245.5px;
+  height: 18px;
+  //ALL CATEGORIES LINK GOES HERE
+  //SEARCH SCARF SPAN STRON (IN BOLD)
+}
+
+.sortBy {
+  float: right;
+  //RELEVANCY LINK GOES HERE
+  //TRIANGLE BUTTON
+}
+
+.eachItem {
+  width: 33.33%;
+  // or width: 227px;
+  // margin-right: 0;
+  height: 227px;
+  padding: 9px;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  text-color: #555;
+  font-size: 13px;
+  font-family: Arial;
+  font-style: sans-serif;
+}
+
+.insideEachItem {
+  width: 225px;
+  height: 225px;
+  border: 1px solid #E1E3DF;
+  background-color: #FFF;
+  border-bottom-color: #CBCCC9;
+  display: inline-block;
+  position: relative;
+}
+
+.imageContainer {
+  //image and item url go here
+  width: 225px;
+  height: 179px;
+  // margin-top: 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.infoUnderImage {
+  //store name, item name, Price all go here
+  width: 225px;
+  height: 36px;
+  margin: 624px;
+  font-family: Arial;
+  font-style: sans-serif;
+  text-color: #555;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
