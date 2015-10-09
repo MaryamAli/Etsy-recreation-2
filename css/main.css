@@ -1,3 +1,6 @@
+* {
+  border: 1px solid black; }
+
 .topBar {
   height: 80px;
   border-bottom: 1px; }
@@ -7,6 +10,15 @@
   height: 80px;
   padding: 0, 18px, 0 18px; }
 
+.logo {
+  width: 75px;
+  height: 80px;
+  margin-right: 20px;
+  color: #F45800;
+  font-size: 40px;
+  font-style: bold;
+  display: inline-block; }
+
 .navBar {
   width: 100%;
   height: 43px; }
@@ -14,7 +26,34 @@
 #navBarInner {
   padding: 0, 18px, 0, 18px;
   height: 40px;
-  width: 100%; }
+  width: 100%;
+  font-size: 13px;
+  text-color: #555;
+  font-family: Arial;
+  font-style: sans-serif;
+  text-align: left;
+  float: left;
+  background-color: #FFF;
+  display: block; }
+
+.navBarUl {
+  list-style-position: outside;
+  cursor: pointer;
+  font-family: Arial;
+  font-style: sans-serif;
+  font-size: 14px;
+  display: block;
+  padding-left: 0;
+  margin: 0;
+  text-align: left; }
+
+.navBar li {
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 12px;
+  text-align: center;
+  vertical-align: middle; }
 
 #mainContentContainer {
   width: 100%;
@@ -82,7 +121,7 @@ h5 {
   font-size: 13px; }
 
 .mainContentInnerBox {
-  width: 75%;
+  width: 717px;
   height: 4159px;
   padding-left: 18px;
   margin: 0;
@@ -115,47 +154,20 @@ h5 {
   margin: 0; }
 
 .itemList {
-  list-style-type: none; }
-
-.eachItem {
-  width: 33.33%;
+  list-style-type: none;
+  width: 227px;
   height: 227px;
   padding: 9px;
   position: relative;
   vertical-align: top;
-  display: inline-block;
+  display: block;
   text-color: #555;
   font-size: 13px;
   font-family: Arial;
   font-style: sans-serif;
-  background-color: #FFFFFF; }
-
-.insideEachItem {
-  width: 225px;
-  height: 225px;
-  border: 1px solid #E1E3DF;
-  background-color: #FFF;
-  border-bottom-color: #CBCCC9;
-  display: inline-block;
-  position: relative;
-  background-color: #FFFFFF; }
-
-.imageContainer {
-  width: 225px;
-  height: 179px;
-  position: relative;
-  display: block;
-  overflow: hidden; }
-
-.infoUnderImage {
-  width: 225px;
-  height: 36px;
-  margin: 6px;
-  font-family: Arial;
-  font-style: sans-serif;
-  text-color: #555;
-  display: block;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  cursor: pointer;
+  float: left; }
 
 .relatedToScarf {
   width: 699px;
