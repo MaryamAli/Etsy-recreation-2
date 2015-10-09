@@ -1,15 +1,16 @@
-* {
-  border: 1px solid black;
-}
+// * {
+//   border: 1px solid black;
+// }
 
 
 .topBar {
   height: 80px;
   border-bottom: 1px;
+  overflow: hidden;
 }
 
 .topBarInner {
-  width: 100%;
+  // width: 100%;
   height: 80px;
   padding: 0, 18px, 0 18px;
 }
@@ -28,11 +29,14 @@
 .navBar {
   width: 100%;
   height: 43px;
+  display: block;
+  float: left;
+
 }
 
 #navBarInner {
-  padding: 0, 18px, 0, 18px;
-  height: 40px;
+  padding: 10px, 18px;
+  height: 43px;
   width: 100%;
   font-size: 13px;
   text-color: #555;
@@ -42,6 +46,7 @@
   float: left;
   background-color: #FFF;
   display: block;
+  border-top: 1px solid #DCDCD9;
 
 }
 
@@ -56,16 +61,30 @@
   padding-left:0;
   margin:0;
   text-align: left;
+  margin-left: 80px;
   // vertical-align: middle
+
 }
 .navBar li {
-  width: 120px;
+  padding-top: 10px;
+  width: 140px;
   height: 40px;
   // list-style-position: outside;
   display: inline-block;
-  margin-right: 12px;
+  margin-right: 0;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: text-bottom;
+}
+
+.lowerNavBar {
+  // h5 has built in top+bottom margin,
+  // results in white space b/w nav bar + background color
+  // of main container
+  // max-width: 100%;
+  height: 27px;
+  background-color: #F5F5F1;
+  float: left;
+  display: block;
 }
 
 // .navBar li {
@@ -78,35 +97,48 @@
 // }
 
 #mainContentContainer {
-  width: 100%;
-  height: 4159px;
+  width: 1336px;
+  height: 4169px;
   background-color: #F5F5F1;
+  display: block;
+  // margin-top: 30px;
 }
 
 .mainContentAdjustable {
   max-width: 980px;
   height: 4159px;
-  margin: 0, auto, 0, auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  // margin-top: 30px;
 }
 
 .mainContent {
   max-width: 980px;
-  height: 415px;
+  height: 4159px;
   margin-top: 30px;
+  display: block;
+  float: none;
+  clear: both;
+  position: relative;
 }
 
 .leftBox {
-  width: 245px;
+  width: 240px;
+  // width: 25%;
   height: 1148px;
+  display: block;
+
 }
 
 h5 {
-  width: 245px;
+  margin: 0px;
+  width: 240px;
   height: 27px;
 }
 
 #allCategories {
-  width: 245px;
+  width: 240px;
   height: 408px;
   background-color: #FFFFFF;
 
@@ -130,19 +162,19 @@ h5 {
 }
 
 .itemTypeSearchBox {
-  width: 245px;
+  width: 240px;
   height: 650px;
   background-color: #FFFFFF;
 }
 
 #itemTypeSearchInnerBox {
-  width: 219px;
+  width: 214px;
   height: 624px;
   
 }
 
 .itemType {
-  width: 219px;
+  width: 214px;
   height: 18px;
   margin-bottom: 6px;
   font-size: 13px;
@@ -152,7 +184,7 @@ h5 {
 }
 
 .itemRadioBox {
-  width: 219px;
+  width: 214px;
   height: 72px;
   font-family: Arial;
   font-style: sans-serif;
@@ -164,11 +196,14 @@ h5 {
   //contains pg number box at bottom
   // width: 75%;
   width: 717px;
+
+  // width: 640px;
   height: 4159px;
   padding-left: 18px;
   margin: 0;
   display: block;
   background-color: #FFFFFF;
+  float: left;
 
 }
 
@@ -176,6 +211,7 @@ h5 {
   clear: both;
   margin: 0;
   width: 717px;
+  // width: 640px;
   height: 27px;
   padding-bottom: 9px;
   background-color: #FFFFFF;
@@ -199,6 +235,7 @@ h5 {
 
 .mainContentItems{
   width: 717px;
+  width: 640px;
   height: 3902px;
   clear: both;
   display: block;
@@ -210,23 +247,24 @@ h5 {
 
 }
 .itemList {
-  list-style-type: none;
-  width: 227px;
-  // margin-right: 0;
-  height: 227px;
-  padding: 9px;
-  position: relative;
-  vertical-align: top;
-  display: block;
-  text-color: #555;
-  font-size: 13px;
-  font-family: Arial;
-  font-style: sans-serif;
-  background-color: #FFFFFF;
-  // list-style-position: outside;
-  cursor: pointer;
-  float: left;
+  // list-style-type: none;
+  // width: 227px;
+  // // margin-right: 0;
+  // height: 227px;
+  // padding: 9px;
+  // position: relative;
+  // vertical-align: top;
+  // display: block;
+  // text-color: #555;
+  // font-size: 13px;
+  // font-family: Arial;
+  // font-style: sans-serif;
+  // background-color: #FFFFFF;
+  // // list-style-position: outside;
+  // cursor: pointer;
+  // float: left;
 }
+
 .eachItem {
   // width: 33.33%;
   // margin-right: 0;
@@ -253,6 +291,28 @@ h5 {
   // display: inline-block;
   // position: relative;
   // background-color: #FFFFFF;
+}
+
+.itemList li{
+  list-style-type: none;
+  // width: 33%;
+  width: 227px;
+  // margin-right: 0;
+  height: 227px;
+  // height: 220px;
+  padding: 9px;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  text-color: #555;
+  font-size: 13px;
+  font-family: Arial;
+  font-style: sans-serif;
+  background-color: #FFFFFF;
+  // list-style-position: outside;
+  cursor: pointer;
+  float: left;
+
 }
 
 .imageContainer {
@@ -290,6 +350,7 @@ h5 {
 
 
 }
+
 
 .normal {
 
