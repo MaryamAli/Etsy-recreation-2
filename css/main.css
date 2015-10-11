@@ -4,17 +4,25 @@
   overflow: hidden; }
 
 .topBarInner {
+  width: 90px;
   height: 80px;
   padding: 0, 18px, 0 18px; }
+
+.topBarInnerContainer {
+  margin: 15px 155px 0 155px; }
 
 .logo {
   width: 75px;
   height: 80px;
-  margin-right: 20px;
-  color: #F45800;
-  font-size: 40px;
+  margin-right: 20px; }
+
+.logo a {
+  color: #F56400;
+  font-size: 42px;
   font-style: bold;
-  display: inline-block; }
+  display: inline-block;
+  font-family: Times New Roman;
+  text-decoration: none; }
 
 .navBar {
   width: 100%;
@@ -30,14 +38,15 @@
   height: 43px;
   width: 100%;
   font-size: 13px;
-  text-color: #555;
+  text-color: #555555;
   font-family: Arial;
   font-style: sans-serif;
   text-align: left;
   float: left;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   display: block;
-  border-top: 1px solid #DCDCD9; }
+  border-top: 1px solid #E1E3DF;
+  border-bottom: 1px solid #DCDCD9; }
 
 .navBarUl {
   list-style-position: outside;
@@ -48,27 +57,24 @@
   padding-left: 0;
   margin: 0;
   text-align: left;
-  margin-left: 80px; }
+  margin-left: 75px; }
 
 .navBar li {
   padding-top: 10px;
-  width: 140px;
+  width: 135px;
   height: 40px;
   display: inline-block;
   margin-right: 0;
   text-align: center;
   vertical-align: text-bottom; }
 
-a {
+.navBar li a {
   text-decoration: none;
-  color: #555;
+  color: #555555;
   cursor: pointer; }
 
-a:hover {
-  text-decoration: underline; }
-
 #mainContentContainer {
-  height: 4169px;
+  height: 100%;
   background-color: #F5F5F1;
   display: block;
   margin-left: auto;
@@ -93,9 +99,8 @@ a:hover {
 .mainContentInnerBox {
   width: 715px;
   border: 1px solid red;
-  height: 3902px;
+  height: 100%;
   padding-left: 17px;
-  margin-top: 47px;
   display: inline-block;
   background-color: #F5F5F1;
   float: right; }
@@ -122,13 +127,13 @@ a:hover {
   padding-top: 20px;
   font-size: 13px;
   font-weight: bold;
-  color: #555;
+  color: #555555;
   font-family: Arial;
   display: block; }
 
 #allCategories {
   width: 238px;
-  height: 408px;
+  height: 328px;
   background-color: #FFFFFF;
   border: 1px solid #E1E3DF;
   border-radius: 3px;
@@ -138,8 +143,7 @@ a:hover {
 .allCategoriesInner {
   padding-top: 8px;
   font-size: 13px;
-  font-weight: bold;
-  color: #555;
+  color: #555555;
   font-family: Arial;
   padding-right: 40px;
   display: block; }
@@ -148,7 +152,7 @@ a:hover {
   font-weight: bold;
   font-size: 13px;
   font-family: Arial;
-  color: #555;
+  color: #555555;
   margin-left: 10px;
   margin-bottom: 5px;
   display: block; }
@@ -167,8 +171,19 @@ a:hover {
   text-decoration: none;
   color: #0192B5; }
 
-a:hover {
+.categories a:hover {
   text-decoration: underline; }
+
+.refineYourSearch {
+  margin: 0px;
+  width: 240px;
+  height: 27px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #555555;
+  font-family: Arial;
+  display: block;
+  margin-top: 25px; }
 
 .itemTypeSearchBox {
   width: 238px;
@@ -176,7 +191,9 @@ a:hover {
   background-color: #FFFFFF;
   display: block;
   border: 1px solid #E1E3DF;
-  border-radius: 3px; }
+  border-radius: 3px;
+  padding-top: 12px;
+  margin-top: 50px; }
 
 #itemTypeSearchInnerBox {
   width: 214px;
@@ -188,7 +205,7 @@ a:hover {
   height: 18px;
   margin-bottom: 6px;
   font-size: 13px;
-  text-color: #555;
+  color: #555555;
   font-family: Arial;
   font-style: sans-serif;
   display: block; }
@@ -198,7 +215,7 @@ a:hover {
   height: 72px;
   font-family: Arial;
   font-style: sans-serif;
-  text-color: #555;
+  color: #555555;
   font-size: 13px; }
 
 .allCategories {
@@ -212,11 +229,12 @@ a:hover {
   background-color: #FFFFFF; }
 
 .mainContentItems {
-  width: 717px;
+  width: 715px;
   height: 3902px;
   clear: both;
   display: inline-block;
-  margin: 0; }
+  margin: 0;
+  border: 1px solid blue; }
 
 .itemList li {
   list-style-type: none; }
@@ -231,6 +249,12 @@ a:hover {
   font-style: sans-serif;
   cursor: pointer;
   position: relative; }
+
+.relatedTitle {
+  font-size: 13px;
+  font-family: Arial;
+  color: #555555;
+  margin-bottom: 5px; }
 
 .related {
   width: 157px;
@@ -250,7 +274,7 @@ a:hover {
   font-style: sans-serif;
   color: #0192B5;
   line-height: 1.4;
-  background-color: #FFFFFF;
+  background-color: #F5F5F1;
   padding: 0;
   width: 157px;
   height: 96px;
@@ -274,7 +298,7 @@ a:hover {
   font-style: sans-serif;
   color: #0192B5;
   line-height: 1.4;
-  background-color: #FFFFFF;
+  background-color: #F5F5F1;
   padding: 0;
   width: 157px;
   height: 96px;
@@ -298,8 +322,75 @@ a:hover {
   font-style: sans-serif;
   color: #0192B5;
   line-height: 1.4;
-  background-color: #FFFFFF;
+  background-color: #F5F5F1;
   padding: 0;
   width: 157px;
   height: 48px;
   float: left; }
+
+.otherShops {
+  width: 699px;
+  height: 36px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #555555;
+  line-height: 1.4;
+  background-color: #F5F5F1;
+  float: none;
+  display: block;
+  clear: both;
+  font-family: Arial;
+  font-style: sans-serif;
+  cursor: pointer;
+  position: relative; }
+
+.otherShops a {
+  color: #1E92B8;
+  text-decoration: none; }
+
+.otherShops a:hover {
+  text-decoration: underline; }
+
+.numberBarAtBottom {
+  width: 717px;
+  height: 45px;
+  display: inline-block;
+  float: none;
+  clear: both;
+  position: relative;
+  cursor: pointer; }
+
+.numberBarAtBottom a {
+  width: 45px;
+  height: 40px;
+  border: 1px solid #D2D3D3;
+  color: #555555;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 10px 13px;
+  margin-bottom: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: -5px;
+  background-color: #FFFFFF;
+  text-align: center; }
+
+.numberBarAtBottom a:hover {
+  background-color: #F5F5F1; }
+
+#backgroundColor {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  background-color: #F5F5F1; }
+
+#backgroundColor1 {
+  background-color: #F5F5F1;
+  border: 1px solid #91918D; }
+
+#backgroundColor2 {
+  background-color: #F5F5F1; }
+
+#radiusOnly {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px; }
