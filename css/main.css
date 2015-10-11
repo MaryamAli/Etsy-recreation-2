@@ -4,17 +4,19 @@
   overflow: hidden; }
 
 .topBarInner {
-  width: 90px;
   height: 80px;
   padding: 0, 18px, 0 18px; }
 
 .topBarInnerContainer {
-  margin: 15px 155px 0 155px; }
+  margin: 15px 155px 0 155px;
+  height: 80px; }
 
 .logo {
   width: 75px;
   height: 80px;
-  margin-right: 20px; }
+  margin-right: 20px;
+  display: inline-block;
+  position: absolute; }
 
 .logo a {
   color: #F56400;
@@ -23,6 +25,85 @@
   display: inline-block;
   font-family: Times New Roman;
   text-decoration: none; }
+
+.searchBox {
+  width: 340px;
+  height: 80px;
+  border: 1px solid red;
+  display: inline-block;
+  float: left;
+  position: relative; }
+
+.topBarRightSide {
+  float: right;
+  list-style-position: outside;
+  width: 320px;
+  height: 80px;
+  border: 1px solid green;
+  font-family: Arial;
+  font-size: 14px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  text-align: left; }
+
+.topBarRightSide li {
+  display: inline-block;
+  margin-right: 0;
+  text-align: center;
+  vertical-align: text-bottom; }
+
+.sellOnEtsy {
+  width: 90px;
+  height: 57px;
+  float: left;
+  position: relative;
+  margin-top: 18px; }
+
+.register {
+  width: 77px;
+  height: 57px;
+  margin-top: 18px;
+  position: relative;
+  float: left; }
+
+button {
+  border-radius: 3px;
+  width: 65px;
+  height: 32px;
+  padding: 8px 10px 10px 10px;
+  border: 1px solid #1E92B7;
+  margin-top: 8px;
+  margin-right: 16px;
+  display: block;
+  float: left;
+  background: transparent; }
+
+button:hover {
+  background: #D4EBF2; }
+
+.icon {
+  display: block;
+  margin-top: 18px;
+  float: none;
+  text-align: center; }
+
+.text {
+  font-size: 12px;
+  color: #888888; }
+
+.topBarRightSide li a {
+  text-decoration: none;
+  color: #1E92B7;
+  cursor: pointer; }
+
+.cart {
+  width: 50px;
+  height: 80px;
+  border: 1px solid red;
+  float: right;
+  display: block;
+  position: absolute; }
 
 .navBar {
   width: 100%;
@@ -51,7 +132,6 @@
 .navBarUl {
   list-style-position: outside;
   font-family: Arial;
-  font-style: sans-serif;
   font-size: 14px;
   display: block;
   padding-left: 0;
