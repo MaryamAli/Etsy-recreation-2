@@ -16,7 +16,8 @@
   height: 80px;
   margin-right: 20px;
   display: inline-block;
-  position: absolute; }
+  position: relative;
+  float: left; }
 
 .logo a {
   color: #F56400;
@@ -24,22 +25,55 @@
   font-style: bold;
   display: inline-block;
   font-family: Times New Roman;
-  text-decoration: none; }
+  text-decoration: none;
+  float: left; }
 
 .searchBox {
   width: 340px;
   height: 80px;
-  border: 1px solid red;
-  display: inline-block;
+  display: block;
   float: left;
   position: relative; }
+
+#searchBoxInterior {
+  width: 330px;
+  height: 35px;
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  padding: 0; }
+
+#searchBoxField {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #B2B2B2;
+  background-color: #FBFBFA;
+  display: inline-block;
+  position: relative;
+  border-radius-left: 3px;
+  vertical-align: bottom;
+  float: left; }
+
+#searchButton {
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin-top: 0px;
+  background-color: #33A8C4;
+  border-radius-left: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  font-color: white; }
+
+a {
+  text-decoration: none;
+  color: white; }
 
 .topBarRightSide {
   float: right;
   list-style-position: outside;
   width: 320px;
   height: 80px;
-  border: 1px solid green;
   font-family: Arial;
   font-size: 14px;
   display: block;
@@ -70,7 +104,7 @@
 button {
   border-radius: 3px;
   width: 65px;
-  height: 32px;
+  height: 36px;
   padding: 8px 10px 10px 10px;
   border: 1px solid #1E92B7;
   margin-top: 8px;
@@ -82,11 +116,20 @@ button {
 button:hover {
   background: #D4EBF2; }
 
+.cart {
+  width: 25px;
+  height: 30px; }
+
+.cart a:hover {
+  color: black; }
+
 .icon {
   display: block;
-  margin-top: 18px;
+  margin-top: 6px;
   float: none;
-  text-align: center; }
+  text-align: center;
+  border-left: solid #EEEEEE;
+  color: #666666; }
 
 .text {
   font-size: 12px;
@@ -100,7 +143,6 @@ button:hover {
 .cart {
   width: 50px;
   height: 80px;
-  border: 1px solid red;
   float: right;
   display: block;
   position: absolute; }
