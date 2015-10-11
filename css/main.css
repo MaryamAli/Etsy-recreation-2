@@ -20,7 +20,10 @@
   width: 100%;
   height: 43px;
   display: block;
-  float: left; }
+  float: left;
+  margin: 0, auto;
+  position: relative;
+  display: block; }
 
 #navBarInner {
   padding: 10px, 18px;
@@ -38,7 +41,6 @@
 
 .navBarUl {
   list-style-position: outside;
-  cursor: pointer;
   font-family: Arial;
   font-style: sans-serif;
   font-size: 14px;
@@ -57,17 +59,20 @@
   text-align: center;
   vertical-align: text-bottom; }
 
-.lowerNavBar {
-  height: 27px;
-  background-color: #F5F5F1;
-  float: left;
-  display: block; }
+a {
+  text-decoration: none;
+  color: #555;
+  cursor: pointer; }
+
+a:hover {
+  text-decoration: underline; }
 
 #mainContentContainer {
-  width: 1336px;
   height: 4169px;
   background-color: #F5F5F1;
-  display: block; }
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .mainContentAdjustable {
   max-width: 980px;
@@ -85,66 +90,15 @@
   clear: both;
   position: relative; }
 
-.leftBox {
-  width: 240px;
-  height: 1148px;
-  display: block; }
-
-h5 {
-  margin: 0px;
-  width: 240px;
-  height: 27px; }
-
-#allCategories {
-  width: 240px;
-  height: 408px;
-  background-color: #FFFFFF; }
-
-.categories {
-  font-size: 13px;
-  list-style-type: none;
-  cursor: pointer;
-  margin: 0;
-  font-family: Arial;
-  font-style: sans-serif;
-  color: #0192B5;
-  line-height: 1.4;
-  background-color: #FFFFFF; }
-
-.itemTypeSearchBox {
-  width: 240px;
-  height: 650px;
-  background-color: #FFFFFF; }
-
-#itemTypeSearchInnerBox {
-  width: 214px;
-  height: 624px; }
-
-.itemType {
-  width: 214px;
-  height: 18px;
-  margin-bottom: 6px;
-  font-size: 13px;
-  text-color: #555;
-  font-family: Arial;
-  font-style: sans-serif; }
-
-.itemRadioBox {
-  width: 214px;
-  height: 72px;
-  font-family: Arial;
-  font-style: sans-serif;
-  text-color: #555;
-  font-size: 13px; }
-
 .mainContentInnerBox {
-  width: 717px;
-  height: 4159px;
-  padding-left: 18px;
-  margin: 0;
-  display: block;
-  background-color: #FFFFFF;
-  float: left; }
+  width: 715px;
+  border: 1px solid red;
+  height: 3902px;
+  padding-left: 17px;
+  margin-top: 47px;
+  display: inline-block;
+  background-color: #F5F5F1;
+  float: right; }
 
 .mainContentBoxNavBar {
   clear: both;
@@ -153,6 +107,99 @@ h5 {
   height: 27px;
   padding-bottom: 9px;
   background-color: #FFFFFF; }
+
+.leftBox {
+  width: 245px;
+  height: 1148px;
+  display: inline;
+  float: left;
+  position: relative; }
+
+.resultsList {
+  margin: 0px;
+  width: 240px;
+  height: 27px;
+  padding-top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #555;
+  font-family: Arial;
+  display: block; }
+
+#allCategories {
+  width: 238px;
+  height: 408px;
+  background-color: #FFFFFF;
+  border: 1px solid #E1E3DF;
+  border-radius: 3px;
+  margin-bottom: 24px;
+  display: block; }
+
+.allCategoriesInner {
+  padding-top: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #555;
+  font-family: Arial;
+  padding-right: 40px;
+  display: block; }
+
+#allCategoriesList {
+  font-weight: bold;
+  font-size: 13px;
+  font-family: Arial;
+  color: #555;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  display: block; }
+
+.categories {
+  font-size: 13px;
+  list-style-type: none;
+  margin: 0;
+  font-family: Arial;
+  font-style: sans-serif;
+  line-height: 1.6;
+  background-color: #FFFFFF;
+  text-decoration: none; }
+
+.categories a {
+  text-decoration: none;
+  color: #0192B5; }
+
+a:hover {
+  text-decoration: underline; }
+
+.itemTypeSearchBox {
+  width: 238px;
+  height: 650px;
+  background-color: #FFFFFF;
+  display: block;
+  border: 1px solid #E1E3DF;
+  border-radius: 3px; }
+
+#itemTypeSearchInnerBox {
+  width: 214px;
+  height: 624px;
+  display: block; }
+
+.itemType {
+  width: 214px;
+  height: 18px;
+  margin-bottom: 6px;
+  font-size: 13px;
+  text-color: #555;
+  font-family: Arial;
+  font-style: sans-serif;
+  display: block; }
+
+.itemRadioBox {
+  width: 214px;
+  height: 72px;
+  font-family: Arial;
+  font-style: sans-serif;
+  text-color: #555;
+  font-size: 13px; }
 
 .allCategories {
   float: left;
@@ -166,27 +213,13 @@ h5 {
 
 .mainContentItems {
   width: 717px;
-  width: 640px;
   height: 3902px;
   clear: both;
-  display: block;
+  display: inline-block;
   margin: 0; }
 
 .itemList li {
-  list-style-type: none;
-  width: 227px;
-  height: 227px;
-  padding: 9px;
-  position: relative;
-  vertical-align: top;
-  display: inline-block;
-  text-color: #555;
-  font-size: 13px;
-  font-family: Arial;
-  font-style: sans-serif;
-  background-color: #FFFFFF;
-  cursor: pointer;
-  float: left; }
+  list-style-type: none; }
 
 .relatedToScarf {
   width: 699px;
@@ -204,8 +237,9 @@ h5 {
   height: 96px;
   padding-right: 18px;
   margin-top: 6px;
-  display: block;
-  float: left; }
+  display: inline;
+  float: none;
+  position: relative; }
 
 .relatedUl {
   font-size: 13px;
@@ -220,7 +254,30 @@ h5 {
   padding: 0;
   width: 157px;
   height: 96px;
-  display: block;
+  float: left; }
+
+.related1 {
+  width: 157px;
+  height: 96px;
+  padding-right: 18px;
+  margin-top: 6px;
+  display: inline;
+  float: none;
+  position: relative; }
+
+.related1Ul {
+  font-size: 13px;
+  list-style-type: none;
+  cursor: pointer;
+  margin: 0;
+  font-family: Arial;
+  font-style: sans-serif;
+  color: #0192B5;
+  line-height: 1.4;
+  background-color: #FFFFFF;
+  padding: 0;
+  width: 157px;
+  height: 96px;
   float: left; }
 
 .related2 {
@@ -228,7 +285,9 @@ h5 {
   height: 48px;
   padding-right: 18px;
   margin: 6px;
-  float: left; }
+  float: left;
+  display: inline;
+  position: relative; }
 
 .relatedUl2 {
   font-size: 13px;
@@ -241,7 +300,6 @@ h5 {
   line-height: 1.4;
   background-color: #FFFFFF;
   padding: 0;
-  display: block;
   width: 157px;
   height: 48px;
   float: left; }
