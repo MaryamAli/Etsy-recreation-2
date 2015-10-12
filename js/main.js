@@ -1,13 +1,13 @@
 
-// // var firstItem =etsydata.results[0];
-// // console.log(firstItem);
+// var firstItem =etsydata.results[0];
+// console.log(firstItem);
 // var templateString = ('#itemTemplate').text();
 
 // var templateFunction = _.template(templateString);
 
-// // var itemHTML = templateFunction(firstItem);
+// var itemHTML = templateFunction(firstItem);
 
-// // $('.container').html(itemHTML);
+// $('.container').html(itemHTML);
 
 
 
@@ -17,7 +17,7 @@
 //   var itemHTML = templateFunction(item);
 //   $('.searchResults').append(itemHTML);
 // });
-  // console.log('It Works!');
+//   console.log('It Works!');
 
   (function () {
 
@@ -26,9 +26,10 @@
  var templateFunction = _.template(templateString);
 
 
+
 _.each(etsydata.results, function (item) {
  var itemHTML = templateFunction(item);
- var imgUrl = item.Images[0].url_570xN
+ var imgUrl = item.Images[0].url_570xN;
  $('.searchResults').append(itemHTML);
  $('.images').append(itemHTML);
 });

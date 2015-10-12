@@ -352,30 +352,124 @@ button:hover {
   border: 1px solid #E1E3DF;
   border-radius: 3px;
   padding-top: 12px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-size: 13px;
+  color: #555555;
+  font-family: Arial;
+  position: relative;
+  clear: both; }
 
 #itemTypeSearchInnerBox {
   width: 214px;
   height: 624px;
-  display: block; }
+  display: block;
+  position: relative;
+  clear: both; }
 
 .itemType {
-  width: 214px;
-  height: 18px;
-  margin-bottom: 6px;
-  font-size: 13px;
-  color: #555555;
-  font-family: Arial;
-  font-style: sans-serif;
-  display: block; }
+  width: 200;
+  height: 80px;
+  margin: 20px 0 30px 10px; }
 
 .itemRadioBox {
   width: 214px;
-  height: 72px;
-  font-family: Arial;
-  font-style: sans-serif;
-  color: #555555;
-  font-size: 13px; }
+  height: 72px; }
+
+.itemRadioBox ul {
+  list-style-type: none;
+  line-height: 25px;
+  display: block;
+  position: relative;
+  clear: both;
+  padding-bottom: 18px; }
+
+.itemRadioBox ul a {
+  color: #1F92B5; }
+
+#firstRadio a {
+  color: #555555; }
+
+.itemType button .price {
+  color: #555555; }
+
+.itemType button .rightArrow {
+  width: 80px;
+  height: 80px; }
+
+.itemColor {
+  width: 214px;
+  height: 80px;
+  margin: 20px 0 30px 0px; }
+
+.itemColor ul {
+  list-style-type: none;
+  width: 200px;
+  padding-left: none; }
+
+.itemColor ul li {
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+  border: 1px solid #E2E2E2;
+  padding: 1px;
+  border-radius: 2px;
+  margin: 2px; }
+
+.red {
+  background-color: #F40E32; }
+
+.orange {
+  background-color: #F57C00; }
+
+.yellow {
+  background-color: #F3CC0A; }
+
+.green {
+  background-color: #37C200; }
+
+.turquoise {
+  background-color: #30CCF3; }
+
+.magenta {
+  background-color: #A60AF3; }
+
+.black {
+  background-color: #000000; }
+
+.white {
+  background-color: #FFFFFF; }
+
+.itemType .ordering {
+  width: 200px;
+  height: 50px;
+  padding-left: none;
+  list-style-type: none; }
+
+.itemType .ordering li {
+  width: 16px;
+  height: 16px;
+  display: block;
+  border: 1px solid #E2E2E2;
+  padding: 1px;
+  border-radius: 2px;
+  margin: 5px;
+  list-style-type: none; }
+
+.itemType ul a {
+  color: #1F92B5; }
+
+.itemType .location {
+  list-style-type: none;
+  margin: 5px 0; }
+
+#country {
+  width: 180px;
+  height: 40px;
+  border: 1px solid #555555;
+  padding: 0 12px;
+  line-height: 40px;
+  text-align: left; }
 
 .mainContentItems {
   width: 715px;
@@ -386,6 +480,7 @@ button:hover {
   border: 1px solid blue; }
 
 .itemList {
+  list-style-position: outside;
   list-style-type: none;
   width: 227px;
   height: 227px;
@@ -426,9 +521,15 @@ button:hover {
   position: relative;
   background-color: #FFFFFF; }
 
+.boxes {
+  list-style-type: none;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  float: left; }
+
 .itemList li {
   list-style-type: none;
-  width: 33%;
   height: 220px;
   margin-right: 0;
   width: 227px;
