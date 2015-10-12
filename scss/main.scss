@@ -348,14 +348,60 @@ color: #666666
   float: right;
 }
 
-.mainContentBoxNavBar {
+.mainContentInnerBoxNavBar {
   clear: both;
-  margin: 0;
+  margin-top: 15px;
   width: 717px;
   // width: 640px;
   height: 27px;
-  padding-bottom: 9px;
-  background-color: #FFFFFF;
+  // padding-bottom: 9px;
+  background-color: #F5F5F1;
+  font-size: 13px;
+  color: #555555;
+  text-align: bottom;
+
+}
+
+.mainContentInnerBoxNavBar a {
+  color: #1F92B6;
+  text-decoration: none;
+}
+
+.allCategories {
+  font-size: 13px;
+  text-align: bottom;
+  display: inline-block;
+  float: left;
+
+}
+
+.allCategories a {
+  text-decoration: none;
+  color: #1F92B6;
+}
+
+.sortBy {
+  font-size: 13px;
+  text-align: bottom;
+  display: inline-block;
+  float: right;
+  margin-top: -15px;
+}
+
+.sortBy a {
+  text-decoration: none;
+  color: #1F92B6;
+}
+
+.arrowDown {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #CBCCC9;
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
 }
 
 .leftBox {
@@ -380,7 +426,7 @@ color: #666666
   display: block;
 }
 
-#allCategories {
+#allCategoriesLeftBox {
   width: 238px;
   height: 328px;
   background-color: #FFFFFF;
@@ -521,26 +567,26 @@ color: #666666
 //   background-color: #FFFFFF;
 // }
 
-.allCategories {
-  float: left;
-  width: 245.5px;
-  height: 18px;
+// .allCategories {
+//   float: left;
+//   width: 245.5px;
+//   height: 18px;
   //ALL CATEGORIES LINK GOES HERE
   //SEARCH SCARF SPAN STRON (IN BOLD)
-  background-color: #FFFFFF;
-}
+//   background-color: #FFFFFF;
+// }
 
-.sortBy {
-  float: right;
-  //RELEVANCY LINK GOES HERE
-  //TRIANGLE BUTTON
-  background-color: #FFFFFF;
-}
+// .sortBy {
+//   float: right;
+//   //RELEVANCY LINK GOES HERE
+//   //TRIANGLE BUTTON
+//   background-color: #FFFFFF;
+// }
 
 .mainContentItems{
   width: 715px;
   // width: 640px;
-  height: 3902px;
+  height: 3980px;
   clear: both;
   display: inline-block;
   margin:0;
@@ -552,95 +598,95 @@ color: #666666
 
 }
 .itemList {
-  // list-style-type: none;
-  // width: 227px;
-  // // margin-right: 0;
-  // height: 227px;
-  // padding: 9px;
-  // position: relative;
-  // vertical-align: top;
-  // display: block;
-  // text-color: #555555;
-  // font-size: 13px;
-  // font-family: Arial;
-  // font-style: sans-serif;
-  // background-color: #FFFFFF;
-  // // list-style-position: outside;
-  // cursor: pointer;
-  // float: left;
+  list-style-type: none;
+  width: 227px;
+  // margin-right: 0;
+  height: 227px;
+  padding: 9px;
+  position: relative;
+  vertical-align: top;
+  display: block;
+  text-color: #555555;
+  font-size: 13px;
+  font-family: Arial;
+  font-style: sans-serif;
+  background-color: #FFFFFF;
+  // list-style-position: outside;
+  cursor: pointer;
+  float: left;
 }
 
 .eachItem {
-  // width: 33.33%;
-  // margin-right: 0;
+  width: 33.33%;
+  margin-right: 0;
   
-  // width: 227px;
-  // height: 227px;
-  // padding: 9px;
-  // position: relative;
-  // vertical-align: top;
-  // display: inline-block;
-  // text-color: #555555;
-  // font-size: 13px;
-  // font-family: Arial;
-  // font-style: sans-serif;
-  // background-color: #FFFFFF;
+  width: 227px;
+  height: 227px;
+  padding: 9px;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  text-color: #555555;
+  font-size: 13px;
+  font-family: Arial;
+  font-style: sans-serif;
+  background-color: #FFFFFF;
 }
 
 .insideEachItem {
-  // width: 225px;
-  // height: 225px;
-  // border: 1px solid #E1E3DF;
-  // background-color: #FFF;
-  // border-bottom-color: #CBCCC9;
-  // display: inline-block;
-  // position: relative;
-  // background-color: #FFFFFF;
+  width: 225px;
+  height: 225px;
+  border: 1px solid #E1E3DF;
+  background-color: #FFF;
+  border-bottom-color: #CBCCC9;
+  display: inline-block;
+  position: relative;
+  background-color: #FFFFFF;
 }
 
 .itemList li{
   list-style-type: none;
-  // width: 33%;
-  // height: 220px;
-  // margin-right: 0;
+  width: 33%;
+  height: 220px;
+  margin-right: 0;
   
-  // width: 227px;
-  // height: 227px;
-  // padding: 9px;
-  // position: relative;
-  // vertical-align: top;
-  // display: inline-block;
-  // text-color: #555555;
-  // font-size: 13px;
-  // font-family: Arial;
-  // font-style: sans-serif;
-  // background-color: #FFFFFF;
+  width: 227px;
+  height: 227px;
+  padding: 9px;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  text-color: #555555;
+  font-size: 13px;
+  font-family: Arial;
+  font-style: sans-serif;
+  background-color: #FFFFFF;
   
-  // cursor: pointer;
-  // float: left;
+  cursor: pointer;
+  float: left;
 
 }
 
 .imageContainer {
-  //image and item url go here
-  // width: 225px;
-  // height: 179px;
-  // // margin-top: 0;
-  // position: relative;
-  // display: block;
-  // overflow: hidden;
+  // image and item url go here
+  width: 225px;
+  height: 179px;
+  // margin-top: 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
 }
 
 .infoUnderImage {
-  //store name, item name, Price all go here
-  // width: 225px;
-  // height: 36px;
-  // margin: 6px;
-  // font-family: Arial;
-  // font-style: sans-serif;
-  // text-color: #555555;
-  // display: block;
-  // background-color: #FFFFFF;
+  // store name, item name, Price all go here
+  width: 225px;
+  height: 36px;
+  margin: 6px;
+  font-family: Arial;
+  font-style: sans-serif;
+  text-color: #555555;
+  display: block;
+  background-color: #FFFFFF;
 }
 
 .relatedToScarf {
