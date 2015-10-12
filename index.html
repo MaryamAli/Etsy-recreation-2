@@ -165,8 +165,10 @@
                   <a href="#">Vintage</a></li>
                   </ul>
                 </div>
+                
                 </div>
-                <div class='itemType'><strong>Price</strong><br><button class= 'price'>$ Low</button> to <button class= 'price'>$ High</button><button class= 'rightArrow'></button></div>
+                <hr width='80%'>
+                <div class='itemType'><strong>Price</strong><br><button class= 'price'>$ Low</button> to <button class= 'price'>$ High</button><button class= 'rightArrow'></button> </div><hr width='80%'>
                 <div class='itemColor'><strong>Filter by Color</strong>
                   <ul class='itemColor'>
                     <a href="#"><li class= 'red'></li></a>
@@ -178,13 +180,17 @@
                     <a href="#"><li class= 'black'></li></a>
                     <a href="#"><li class= 'white'></li></a>
                   </ul>
+                  
                 </div>
+                <hr width='80%'>
                 <div class='itemType'><strong>Ordering Options</strong>
                   <ul class='ordering'>
                     <li><a href="#">Accepts Etsy Gift Cards</a></li>
                     <li><a href="#">Customizable</a></li>
                   </ul>
+                  
                 </div>
+                <hr width='80%'>
                 <div class='itemType'><strong>Shop Location</strong>
                     <ul class='location'>
                        <li id='firstRadio'><input type='radio'value='Anywhere'>
@@ -194,7 +200,9 @@
                         <a href="#"><li>Choose a custom location</li></a>
                     </ul>
                 </div>
-                <div class='itemType'><strong>Ship To</strong><div id='country'>United States</div><div class='arrowDown'></div>
+                <hr width='80%'>
+                <div class='itemType'><strong>Ship To</strong><div id='country'>United States &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &#9660</div></div>
+
                 </div>
             </div>
           </div>
@@ -215,7 +223,7 @@
 
     <div>
       <p>
-        <%=Images%>
+        <%=Images[0].url_570xN%>
           <img src="<%=Images[0].url_570xN%>">
           <%=title%>
       </p>
@@ -225,15 +233,6 @@
       </p>
       <p class='description'>
         <%=description %>
-      </p>
-            <p class='Shop.shop_name'>
-        <%=Shop.shop_name %>
-      </p>
-      <p class='title'>
-        <%=title%>
-      </p>
-      <p class='link'>
-        <%=url%>
       </p>
     </div>
     <hr>
@@ -251,7 +250,7 @@
       Shop Name:
       <%=shopName %>
       </li>
-    //</script>
+    </script>
      
               
 
@@ -270,10 +269,10 @@
 
 
 
-//   var templateString = $('#item-template').text();
+<!-- //   var templateString = $('#item-template').text();
 // var renderTemplate = _.template(templateString);
 // var freshHTML = renderTemplate({name: 'Beer Mug'});
-// $('.some-container').append(freshHTML); 
+// $('.some-container').append(freshHTML);  -->
 
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>

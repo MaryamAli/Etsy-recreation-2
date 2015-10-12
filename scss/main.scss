@@ -580,13 +580,14 @@ color: #666666
 
 .itemTypeSearchBox {
   width: 238px;
-  height: 650px;
+  height: 850px;
   background-color: #FFFFFF;
   display: block;
   border: 1px solid #E1E3DF;
   border-radius: 3px;
   padding-top: 12px;
-  margin-top: 50px;
+  margin: 50px 0 50px 0;
+
   font-size: 13px;
   color: #555555;
   font-family: Arial;
@@ -598,7 +599,7 @@ color: #666666
 
 #itemTypeSearchInnerBox {
   width: 214px;
-  height: 624px;
+  height: 824px;
   display: block;
   position: relative;
   clear: both;
@@ -721,13 +722,15 @@ color: #666666
         }
 
     #country{
-        width: 180px;
+        width: 160px;
         height: 40px;
         border: 1px solid #555555;
         padding: 0 12px;
         line-height: 40px;
         text-align: left;
         }
+
+      
           
 
 .relatedToScarf {
