@@ -62,23 +62,22 @@
             </div>
           </div>
           <div>
+           <!-- stops above pg number bar -->
+         <div class='mainContentItems'>
           
-          <div class='mainContentItems'>
-            <!-- stops above pg number bar -->
-
+              
+              <div class='eachItem'>
+                <div class='insideEachItem'>
+                  <div class='imageContainer'>
+                    <div class='infoUnderImage'>
                       
-                                <div class='insideEachItem'>
-                                    <div class='imageContainer'>
-                                    </div>
-                                    <div class='infoUnderImage'>
-                                    </div>
-                                </div>
-                            </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </div>  
 
-
-           </div> 
-            
-                  </div class='actualItems'>
+                  </div>
                   
 
           <div class='relatedToScarf'>
@@ -206,7 +205,7 @@
   </div>
 
 
-  <!-- JS RESULTS -->
+    <!-- JS RESULTS -->
 
   <div class ='searchResults'></div>
 <div class='images'></div>
@@ -216,7 +215,7 @@
 
     <div>
       <p>
-        <%=Images[0].url_570xN%>
+        <%=Images%>
           <img src="<%=Images[0].url_570xN%>">
           <%=title%>
       </p>
@@ -227,8 +226,14 @@
       <p class='description'>
         <%=description %>
       </p>
-            <p class='shopName'>
+            <p class='Shop.shop_name'>
         <%=Shop.shop_name %>
+      </p>
+      <p class='title'>
+        <%=title%>
+      </p>
+      <p class='link'>
+        <%=url%>
       </p>
     </div>
     <hr>
@@ -247,12 +252,28 @@
       <%=shopName %>
       </li>
     //</script>
+     
+              
 
 
-  <!-- var templateString = $('#item-template').text();
-var renderTemplate = _.template(templateString);
-var freshHTML = renderTemplate({name: 'Beer Mug'});
-$('.some-container').append(freshHTML); -->
+              
+                
+                  
+                    
+                      
+                    
+             
+
+ 
+
+
+
+
+
+//   var templateString = $('#item-template').text();
+// var renderTemplate = _.template(templateString);
+// var freshHTML = renderTemplate({name: 'Beer Mug'});
+// $('.some-container').append(freshHTML); 
 
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
