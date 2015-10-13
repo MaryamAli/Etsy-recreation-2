@@ -21,7 +21,7 @@
 
 
 
-  (function () {
+(function () {
 
  var templateString = $('#itemTemplate').text();
 
@@ -29,14 +29,14 @@
 
 
 
-_.each(etsydata.results, function (item) {
+_.each(etsydata.results, function(item) {
+  // console.log('item');
  var itemHTML = templateFunction(item);
  var imgUrl = item.Images[0].url_570xN;
- $('.searchResults').append(itemHTML);
- $('.images').append(imageHTML);
+ $('.mainContentItems').append(itemHTML);
+ // $('.images').append(imageHTML);
+ 
 });
-
-
 
 
 }());

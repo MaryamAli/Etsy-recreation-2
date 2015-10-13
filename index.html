@@ -67,13 +67,13 @@
           
               
               <div class='eachItem'>
-                <div class='insideEachItem'>
+                <!-- <div class='insideEachItem'>
                   <div class='imageContainer'>
-                    <div class='infoUnderImage'>
+                    <div class='infoUnderImage'> -->
                       
-                    </div>
+                    <!-- </div>
                   </div>
-                </div>
+                </div> -->
               </div>
            </div>  
 
@@ -214,43 +214,77 @@
 
 
     <!-- JS RESULTS -->
+<script type='text/template' id='itemTemplate'><div class='eachItem'><a href ='<%url%>'><div class='insideEachItem'>
 
-  <div class ='searchResults'></div>
-<div class='images'></div>
-
-
-  <script type="text/template" id='itemTemplate'>
-
-    <div>
-      <p>
-        <%=Images[0].url_570xN%>
-          <img src="<%=Images[0].url_570xN%>">
-          <%=title%>
-      </p>
-      <p class='price'>
-        $
-        <%=price%>
-      </p>
-      <p class='description'>
-        <%=description %>
-      </p>
-    </div>
-    <hr>
+    <img class='imageContainer' src='<%=Images[0,1].url_570xN%>'></a><hr>
+    <div class='infoUnderImage'><a href='#'>
+      <div class='title'><%=title%></a>
+      <a href='#'><div class='shopName'><%=Shop.shop_name%></a>
+      <div class='price'>$<%=price%>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </script>
 
 
-  </script>
+<!--       // <script type='text/template' id='itemTemplate'><div class='eachItem'><a href ='<%url%>'><div class='insideEachItem'>
+
+    // <img class='imageContainer' src='<%=Images[1].url_570xN%>'></a><hr>
+    // <div class='infoUnderImage'><a href='#'>
+    //   <div class='title'><%=title%></a>
+    //   <a href='#'><div class='shopName'><%=Shop.shop_name%></a>
+    //   <div class='price'>$<%=price%>
+    //   </div>
+    //   </div>
+    //   </div>
+    //   </div>
+    //   </div>
+    //   </div>
+    //   </script>
+
+      
+
+  
+<!-- <div class='images'></div> -->
 
 
-  <script type="text/template" id="item-template">
-    <li class="item">
-      Item Name:
-      <%=name %>
-    </li>
-    <li class='shop_name'>
-      Shop Name:
-      <%=shopName %>
-      </li>
-    </script>
+   
+<!-- // 
+// <script type="text/template" id="item-template">
+// <div class ='searchResults'></div>
+//     <div>
+//       <p>
+//         <%=Images[0].url_570xN%>
+//           <img src="<%=Images[0].url_570xN%>">
+//           <%=title%>
+//       </p>
+//       <p class='price'>
+//         $
+//         <%=price%>
+//       </p>
+//       <p class='description'>
+//         <%=description %>
+//       </p>
+//     </div>
+//     <hr>
+
+
+   // </script>
+
+
+  // <script type="text/template" id="item-template">
+  //   <li class="item">
+  //     Item Name:
+  //     <%=name %>
+  //   </li>
+  //   <li class='shop_name'>
+  //     Shop Name:
+  //     <%=shopName %>
+  //     </li>
+  //   </script>  -->
      
               
 
@@ -273,6 +307,9 @@
 // var renderTemplate = _.template(templateString);
 // var freshHTML = renderTemplate({name: 'Beer Mug'});
 // $('.some-container').append(freshHTML);  -->
+
+
+
 
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>

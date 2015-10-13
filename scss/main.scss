@@ -257,7 +257,7 @@ color: #666666
   padding-left:0;
   margin:0;
   text-align: left;
-  margin-left: 75px;
+  margin-left: 60px;
   // vertical-align: middle
 
 }
@@ -414,28 +414,28 @@ color: #666666
   margin:0;
   border: 1px solid blue;
 
-}
+
 
 .eachItem {
   // width: 33.33%;
-  margin-right: 0;
+  margin:5px;
   
-  width: 220px;
-  height: 220px;
-  padding: 9px;
+  width: 225px;
+  height: 225px;
+  padding: 0;
   position: relative;
   vertical-align: top;
   display: inline-block;
   text-color: #555555;
-  font-size: 13px;
+  font-size: 8px;
   font-family: Arial;
   font-style: sans-serif;
   background-color: #FFFFFF;
-}
+
 
 .insideEachItem {
-  width: 215px;
-  height: 215px;
+  width: 225px;
+  height: 225px;
   border: 1px solid #E1E3DF;
   background-color: #FFF;
   border-bottom-color: #CBCCC9;
@@ -445,44 +445,50 @@ color: #666666
   image: 100%;
 
 
-.link{
-  float: left;
-  text-decoration: underline;
+// .link{
+//   float: left;
+//   text-decoration: underline;
 
 
-}
+
 .imageContainer {
   // image and item url go here
-  width: 215px;
-  height: 179px;
+  width: 225px;
+  height: 185px;
   // margin-top: 0;
-  position: relative;
+  // position: relative;
   display: block;
   overflow: hidden;
-}
-}
+
+
 
 .infoUnderImage {
   // store name, item name, Price all go here
-  width: 215px;
-  height: 36px;
-  margin: 6px;
+  width: 225px;
+  height: 30px;
+  margin: 0px;
   font-family: Arial;
   font-style: sans-serif;
   text-color: #555555;
   display: block;
-  background-color: #FFFFFF;
+  background-color: clear;
+  position: relative;
 
 .title {
   color: #555555;
-  font-size: 12px;
-}
-}
+  font-size: 8px;
+
 .shopName {
   color: #555555;
-  font-size: 12px;
+  font-size: 8px;
   text-decoration: underline;
 }
+  }
+    }
+      }
+        }
+          }
+            }
 
 //end of data
 
