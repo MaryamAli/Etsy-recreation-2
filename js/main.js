@@ -30,9 +30,9 @@
 
 
 _.each(etsydata.results, function(item) {
-  // console.log('item');
+  console.log('item');
  var itemHTML = templateFunction(item);
- var imgUrl = item.Images[0].url_570xN;
+ // var imgUrl = item.Images[0].url_570xN;
  $('.mainContentItems').append(itemHTML);
  // $('.images').append(imageHTML);
  

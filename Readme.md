@@ -1,3 +1,1 @@
-## This is a Readme
-
-> You should probably update me.
+Recreate an esty.com page using Underscore, JQuery.
