@@ -12,150 +12,132 @@
 	<!-- TOP BAR -->
 
 	<div class = 'topbar'>
-		<div class = 'topBarInner'>
-			<div class = 'topBarInnerContainer'>
-				<div class = 'logo'><<a href="#">Etsy</a></div>
-				<div class = 'searchBox'>
-					<div id = 'searchBoxInterior'>
-						<div id = 'searchBoxField'>scarf</div>
-						<div id = 'searchBoxButton'><button id = 'searchButton'></button></div>
-						<ul class = 'topBarRightSide'>
-							<li class = 'sellOnEtsy'><a href="#">Sell on Etsy</a></li>
-							<li class = 'register'><a href="#">Register</a></li>
-							<li class = 'signInButton'><button><a href="#">Sign In</a></button></li>
-							<li class = 'cart'><a href="#" class = 'cartA'><span class = 'icon'><img src="images/cart.png" alt="#"></span><span class = 'text'>Cart</span></a></li>
-						</ul>
-					</div>
+		<ul class = 'topBarInner'>
+			<li class = 'logo'><a href="#">Etsy</a></li>
+			<li>
+				<div class= 'searchBox'>
+					<div class = 'searchBoxButton'><a href="#">Search</a></div>
 				</div>
-				</div>
-			</div>
+			</li>
+		</ul>
+		<div class = 'topBarLinks'>
+			<ul class = 'topBarRightSide'>
+				<li><div><a href="#">Sell on Etsy</a></div></li>
+				<li><div><a href="#">Register</a></div></li>
+				<li><div><button class = 'signIn'><a href="#">Sign In</a></button></div></li>
+			</ul>
+			<ul class = 'cartIcon'>	
+				<li><div class='cart'><a href="#"><div class = 'underCart'>Cart</div></div></a></li>
+			</ul>
 		</div>
 	</div>
 	
 	<!-- NAV BAR -->
 
 	<div class = 'navBar'>
-		<div id = 'navBarInner'>
-			<ul class = 'navBarUl'>
-				<li id = 1><a href="#">Clothing&Accessories</a></li>
-				<li id = 2><a href="#">Jewelry</a></li>
-				<li id = 3><a href="#">Craft Supplies&Tools</a></li>
-				<li id = 4><a href="#">Weddings</a></li>
-				<li id = 5><a href="#">Entertainment</a></li>
-				<li id = 6><a href="#">Home&Living</a></li>
-				<li id = 7><a href="#">Vintage</a></li>
-			</ul>
-		</div>
+		<ul class = 'navBarUl'>
+			<li id = 1><a href="#">Clothing&Accessories</a></li>
+			<li id = 2><a href="#">Jewelry</a></li>
+			<li id = 3><a href="#">Craft Supplies&Tools</a></li>
+			<li id = 4><a href="#">Weddings</a></li>
+			<li id = 5><a href="#">Entertainment</a></li>
+			<li id = 6><a href="#">Home&Living</a></li>
+			<li id = 7><a href="#">Vintage</a></li>
+		</ul>
 	</div>
+	
+	<div class = 'mainSection'>
+		
+		<div class = 'lowerNavBar'>
+			<div class = 'allCategories'><a href="#">All Categories</a><strong> > "scarf"</strong> (547,218 Results)</div>
+			<div class = 'arrowDown'></div>
+			<div class = 'mainContentItems'></div>
+		</div>
 
-	<!-- LOWER NAV BAR -->
+	
+		<!-- LEFT NAV BAR -->
 
-<!-- 	<div class = 'lowerNavBar'></div>
-	<div id = 'mainContentContainer'>
-		<div class = 'mainContentAdjustable'>
-			<div class = 'mainContent'>
-				<div class = 'mainContentInnerBoxNavBar'>
-					<div class = 'allCategories'>
-						<a href="#">All Categories</a><strong> > "scarf"</strong>(547,218 Results)
-					</div>
-					<div class = 'arrowDown'></div>
-				</div>
+		<div class = 'leftBox'>
+			<div class = 'resultsList'>Show results for:</div>
+			<div class = 'allCategoriesInner'>
+				<p>All Categories</p>
+				<ul class = 'categories'>
+					<li><a href="#">Accessories</a></li>
+	        <li><a href="#">Craft Supplies & Tools</a></li>
+	        <li><a href="#">Clothing</a></li>
+	        <li><a href="#">Jewelry</a></li>
+	        <li><a href="#">Bath & Beauty</a></li>
+	        <li><a href="#">Home & Living</a></li>
+	        <li><a href="#">Pet Supplies</a></li>
+	        <li><a href="#">Wedding</a></li>
+	        <li><a href="#">Art & Collectibles</a></li>
+	        <li><a href="#">Toy & Games</a></li>
+	        <li><a href="#">Paper & Party Supplies</a></li>
+	        <li><a href="#">Bags & Purses</a></li>
+	        <li><a href="#">Books, Movies & Music</a></li>
+	        <li><a href="#">Electronics&Accessories</a></li>
+	        <li><a href="#">Shoes</a></li>
+				</ul>
 			</div>
-			<div>
-				<div class = 'mainContentItems'></div>
-			</div>
-		</div>
-	</div> -->
-
-	<div class = 'lowerNavBar'>
-		<div class = 'allCategories'><a href="#">All Categories</a><strong> > "scarf"</strong> (547,218 Results)</div>
-		<div class = 'arrowDown'></div>
-		<div class = 'mainContentItems'>
-			
-		</div>
-	</div>
-
-	<!-- LEFT NAV BAR -->
-
-	<div class = 'leftBox'>
-		<div class = 'resultsList'>Show results for:</div>
-		<div id = 'allCategoriesInner'>
-			<div id = 'allCategoriesList'>All Categories</div>
-			<ul class = 'categories'>
-				<li><a href="#">Accessories</a></li>
-        <li><a href="#">Craft Supplies & Tools</a></li>
-        <li><a href="#">Clothing</a></li>
-        <li><a href="#">Jewelry</a></li>
-        <li><a href="#">Bath & Beauty</a></li>
-        <li><a href="#">Home & Living</a></li>
-        <li><a href="#">Pet Supplies</a></li>
-        <li><a href="#">Wedding</a></li>
-        <li><a href="#">Art & Collectibles</a></li>
-        <li><a href="#">Toy & Games</a></li>
-        <li><a href="#">Paper & Party Supplies</a></li>
-        <li><a href="#">Bags & Purses</a></li>
-        <li><a href="#">Books, Movies & Music</a></li>
-        <li><a href="#">Electronics&Accessories</a></li>
-        <li><a href="#">Shoes</a></li>
-			</ul>
-		</div>
-		<div class = 'refineYourSearch'>Refine Your Search</div>
-		<div class = 'itemTypeSearchBox'>
-			<div id = 'itemTypeSearchInnerBox'>
+			<div class = 'refineYourSearch'>Refine Your Search</div>
+			<div class = 'itemTypeSearchBox'>
+				<p><strong>Item Type</strong></p>
+					<ul class = 'radios'>
+		        <li ><input type='radio' value='All Items'>
+		                 
+		        <a href="#"><strong>All Items</strong></a></li>
+	   	      <li id='firstRadio'><input type='radio'value='Handmade'>
+		            <a href="#">Handmade</a></li>
+		        <li id='firstRadio'><input type='radio'value='Vintage'>
+		            <a href="#">Vintage</a></li>
+	        </ul>						
+				<hr width = '80%'>
 				<div class = 'itemType'>
-					<div class = 'itemRadioBox'>
-						<strong>Item Type</strong>
-						<ul>
-	            <li id='firstRadio'><input type='radio' value='All Items'>
-	                  <!-- 16x16 -->
-	            <a href="#"><strong>All Items</strong></a></li>
-	            <li><input type='radio'value='Handmade'>
-	            <a href="#">Handmade</a></li>
-	            <li><input type='radio' value='Vintage'>
-	            <a href="#">Vintage</a></li>
-            </ul>						
+					<div class='priceButtons'>
+						<p><strong>Price</strong></p><br><button class = 'price'>$ Low</button> to <button class = 'price'>$ High</button><button class = 'rightArrow'><strong>></strong></button>
 					</div>
 				</div>
 				<hr width = '80%'>
-				<div class = 'itemType'>
-					<strong>Price</strong><br><button class = 'price'>$ Low</button> to <button class = 'price'>$ High</button><button class = 'rightArrow'></button>
+					
+				<p><strong>Filter by Color</strong></p>
+				<div class = 'itemColor'>	
+					<ul class='itemColors'>
+	          <a href= "#"><li class = 'red'></li></a>
+	          <a href= "#"><li class = 'orange'></li></a>
+	          <a href= "#"><li class = 'yellow'></li></a>
+	          <a href= "#"><li class = 'green'></li></a>
+	          <a href= "#"><li class = 'turquoise'></li></a>
+	          <a href= "#"><li class = 'magenta'></li></a>
+	          <a href= "#"><li class = 'black'></li></a>
+	          <a href= "#"><li class = 'white'></li></a>
+	        </ul>
 				</div>
 				<hr width = '80%'>
-				<div class = 'itemColor'>
-					<strong>Filter by Color</strong>
-					<ul class='itemColor'>
-            <a href= "#"><li class = 'red'></li></a>
-            <a href= "#"><li class = 'orange'></li></a>
-            <a href= "#"><li class = 'yellow'></li></a>
-            <a href= "#"><li class = 'green'></li></a>
-            <a href= "#"><li class = 'turquoise'></li></a>
-            <a href= "#"><li class = 'magenta'></li></a>
-            <a href= "#"><li class = 'black'></li></a>
-            <a href= "#"><li class = 'white'></li></a>
-          </ul>
-				</div>
-				<hr width = '80%'>
-				<div class = 'itemType'>
-					<strong>Ordering Options</strong>
+					
+				<p><strong>Ordering Options</strong></p>
+				<div class = 'itemType'>	
 					<ul class='ordering'>
-            <li><a href="#">Accepts Etsy Gift Cards</a></li>
-            <li><a href="#">Customizable</a></li>
-          </ul>
+	          <li><input type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></li><br>
+	          <li><input type="checkbox"><a href="#">Customizable</a></li>
+	        </ul>
 				</div>
+					
 				<hr width = '80%'>
+				<p><strong>Shop Location</strong></p>
 				<div class = 'itemType'>
-					<strong>Shop Location</strong>
 					<ul class='location'>
-            <li id='firstRadio'><input type='radio'value='Anywhere'>
-            <a href="#"><strong>Anywhere</strong></a></li>
-            <li><input type='radio' value='United States'>
-            <a href="#">United States</a></li>
-            <a href="#"><li>Choose a custom location</li></a>
-          </ul>
+	          <li id='firstRadio'><input type='radio'value='Anywhere'>
+	            <a href="#"><strong>Anywhere</strong></a></li>
+	          <li><input type='radio' value='United States'>
+	            <a href="#">United States</a></li>
+	          <li><input type='radio' value='Chose a custom location'>
+	            <a href="#">Choose a custom location</a></li>
+	        </ul>
 				</div>
+
 				<hr width = '80%'>
 				<div class = 'itemType'>
-					<strong>Ship To</strong>
+				<p><strong>Ship To</strong></p>
 					<div id = 'country'>United States &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &#9660
 					</div>
 				</div>
@@ -164,52 +146,51 @@
 	</div>
 
 	<!-- FOOTER -->
-
-	<div class = 'relatedToScarf'>
-		<div class = 'relatedTitle'>
-			Related to <strong>scarf</strong>
+	<div class = 'footer'>
+		<div class = 'relatedToScarf'>
+			<p>Related to <strong>scarf</strong></p>
+			<div class='related'>
+	      <ul class='relatedUl'>
+	        <li>infinity scarf</li>
+	        <li>knit scarf</li>
+	        <li>silk scarf</li>
+	        <li>blanket scarf</li>
+	      </ul>
+	    </div>
+	    <div class='related1'>
+	      <ul class='related1Ul'>
+	        <li>knitted scarf</li>
+	        <li>scarf crochet</li>
+	        <li>scarf knit</li>
+	        <li>cotton scarf</li>
+	      </ul>
+	    </div>
+	    <div class='related2'>
+	      <ul class='relatedUl2'>
+	        <li>plaid scarf</li>
+	        <li>summer scarves</li>
+	      </ul>
+	    </div>		
 		</div>
-		<div class='related'>
-      <ul class='relatedUl'>
-        <li>infinity scarf</li>
-        <li>knit scarf</li>
-        <li>silk scarf</li>
-        <li>blanket scarf</li>
-      </ul>
-    </div>
-    <div class='related1'>
-      <ul class='related1Ul'>
-        <li>knitted scarf</li>
-        <li>scarf crochet</li>
-        <li>scarf knit</li>
-        <li>cotton scarf</li>
-      </ul>
-    </div>
-    <div class='related2'>
-      <ul class='relatedUl2'>
-        <li>plaid scarf</li>
-        <li>summer scarves</li>
-      </ul>
-    </div>		
-	</div>
 
-	<div class = 'otherShops'>Looking for shops? <a href="#">ScarfObsession, </a><a href="#">ScarfsSale, </a><a href="#">ScarfSophisticate2. </a><a href="#">See more.</a></div>
+		<div class = 'otherShops'>Looking for shops? <a href="#">ScarfObsession, </a><a href="#">ScarfsSale, </a><a href="#">ScarfSophisticate2. </a><a href="#">See more.</a></div>
 	
 	<!-- PAGE NUMBERS -->
 	
-	<div class = 'numberBarAtBottom'>
-		<a href="#" id="backgroundColor"><</a>
-    <a href="#" id="backgroundColor1">1</a>
-    <a href="#">2</a>
-    <a href="#">3</a>
-    <a href="#">4</a>
-    <a href="#">5</a>
-    <a href="#">6</a>
-    <a href="#">7</a>
-    <a href="#">8</a>
-    <a href="#" id="backgroundColor2">...</a>
-    <a href="#">250</a>
-    <a href="#" id="radiusOnly">></a>
+		<div class = 'numberBarAtBottom'>
+			<a href="#" id="backgroundColor"><</a>
+	    <a href="#" id="backgroundColor1">1</a>
+	    <a href="#">2</a>
+	    <a href="#">3</a>
+	    <a href="#">4</a>
+	    <a href="#">5</a>
+	    <a href="#">6</a>
+	    <a href="#">7</a>
+	    <a href="#">8</a>
+	    <a href="#" id="backgroundColor2">...</a>
+	    <a href="#">250</a>
+	    <a href="#" id="radiusOnly">></a>
+		</div>
 	</div>
 
 
@@ -222,14 +203,14 @@
 					<div class = 'hamburger'><img src = 'images/hamburger.png'></div>
 				</div>
 
-	    	<img class='imageContainer' src= "<%=Images[0].url_570xN%>">
+	    	<img class='imageContainer' src= "<%= Images[0].url_570xN %>">
 	    </div></a>
 	    	
 		  <div class='infoUnderImage'><a href='#'></a>
 		  	<ul>
-		  	    <li>a href = "<%= url %>"<div class = 'title'><%= title %></div></a></li>
+		  	    <li><a href = "<%= url %>"><div class = 'infoTitle'><%= title %></div></a></li>
 		  	    <li><a href='#'><div class="shopName"><%= Shop.shop_name %></div></a></li> 
-		  	    <li><div class="price">$<%= price %></div></li>
+		  	    <li><div class="shopPrice"> $ <%= price %></div></li>
 		  	</ul>
 		  </div>   
 		</div>
