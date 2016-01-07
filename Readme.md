@@ -6,3 +6,5 @@ Demonstrate strong ability to navigate through a large block of JSON data
 Understand and be able to use Underscore/Lodash templates
 
 site: https://maryamali.github.io/Etsy-recreation-2/
+
+![etsy site example](https://i.imgur.com/J8R0aog.png)
